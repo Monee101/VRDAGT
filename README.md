@@ -7,16 +7,19 @@ git clone https://github.com/Monee101/VRDAGT.git
 cd VRDAGT
 ```
 
-(Since the datasets are larger than 100MB, you may need to use git lfs to clone the large files. If you haven't installed git lfs, you can follow the instructions on the [git lfs website](https://git-lfs.github.com/) to install it. After installing git lfs, you can run the following command to clone the repository:
+If you find that the datasets are not available, you can try to solve this problem by the following ways:
+1. Since the datasets are larger than 100MB, you may need to use git lfs to clone the large files. If you haven't installed git lfs, you can follow the instructions on the [git lfs website](https://git-lfs.github.com/) to install it. After installing git lfs, you can run the following command to clone the repository:
 ```bash
 git lfs install
 ```
-Then, you can run the following command to clone the large files:
+
+2. Then, you can run the following command to clone the large files:
 ```bash
 git lfs pull
-```)
+```
 
-To run the code, you need to install python 3.9 or higher and the required packages listed in `requirements.txt`. You can install the required packages using pip:
+To run the code, you need to install `python 3.9` or `higher` and the required packages listed in `requirements.txt`. You can install the required packages using pip:
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -45,7 +48,7 @@ For example, to reproduce the results of the A9A logistic regression experiment,
 python ML.py --nodes 10 --T 6000 --alpha 0.01 --dataset A9A --model log 
 ```
 
-PS. For logistic regression, we don't use one-hot encoding, so you can remove the `--onehot` parameter and for neural networks, you need to use the `--onehot` parameter to use one-hot encoding.
+For logistic regression, we don't use one-hot encoding, so you can remove the `--onehot` parameter and for neural networks, you need to use the `--onehot` parameter to use one-hot encoding.
 
 ---
 **If you have any questions or suggestions, please feel free to contact me. You can also open an issue on GitHub to discuss the code or report bugs.**
