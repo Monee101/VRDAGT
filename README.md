@@ -1,6 +1,21 @@
 ## This project is the numerical simulations for the paper *Variance Reduced Distributed Adaptive Stochastic Gradient Tracking for Nonconvex Optimization over Directed Networks*.
 
 ### Preparation
+First, you need to clone the repository to your local machine and turn to the project directory by running the following command:
+```bash
+git clone https://github.com/Monee101/VRDAGT.git
+cd VRDAGT
+```
+
+(Since the datasets are larger than 100MB, you may need to use git lfs to clone the large files. If you haven't installed git lfs, you can follow the instructions on the [git lfs website](https://git-lfs.github.com/) to install it. After installing git lfs, you can run the following command to clone the repository:
+```bash
+git lfs install
+```
+Then, you can run the following command to clone the large files:
+```bash
+git lfs pull
+```)
+
 To run the code, you need to install python 3.9 or higher and the required packages listed in `requirements.txt`. You can install the required packages using pip:
 ```bash
 pip install -r requirements.txt
@@ -9,7 +24,7 @@ pip install -r requirements.txt
 ### A thorough explanation of the meaning and purpose of each directory is as follows:
 - algorithms: Contains the implementation of the algorithms, such as VRDAGA, DAGT, GT-VR and AB-SAGA.
 - data: Contains the datasets used in the experiments, all dataset have been preprocessed.
-- draw: Contains the visualization results of the experiments.
+- draw-paper: Contains the visualization results of the experiments.
 - draw_code: Contains the code for generating the visualization results.
 - models: Contains the model definitions used in the experiments, such as neural networks and logistic regression and so on.
 - utils: Contains the utility functions used in the experiments, such as communication matrix generation.
@@ -33,7 +48,6 @@ python ML.py --nodes 10 --T 6000 --alpha 0.01 --dataset A9A --model log
 PS. For logistic regression, we don't use one-hot encoding, so you can remove the `--onehot` parameter and for neural networks, you need to use the `--onehot` parameter to use one-hot encoding.
 
 ---
-
 **If you have any questions or suggestions, please feel free to contact me. You can also open an issue on GitHub to discuss the code or report bugs.**
 
 
