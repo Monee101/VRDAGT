@@ -9,7 +9,8 @@ cd VRDAGT
 ```
 
 If you find that the datasets are not available, you can try to solve this problem by the following ways:
-1. Since the datasets are larger than 100MB, you may need to use git lfs to clone the large files. If you haven't installed git lfs, you can follow the instructions on the [git lfs website](https://git-lfs.github.com/) to install it. After installing git lfs, you can run the following command to clone the repository:
+1. Since the datasets are larger than 100MB, you may need to use git lfs to clone the large files. If you haven't installed git lfs, you can run the following command to install:
+
 ```bash
 git lfs install
 ```

@@ -15,12 +15,6 @@ for i in range(0,3):
     fashion_mnist_bur = fashion_mnist_blurring(nodes,image_num,center=False,one_hot=False)
     datasets = [Subset(fashion_mnist_bur.get_nodes_dataset_one_column(i),[0]) for i in range(nodes)]
 
-    # 创建通信网络,所有算法都使用同一个网络
-    # 创建log文件夹
-    # dir_path = r'./log/对比试验'+time.strftime(" %Y年%m月%d日%H时%M分%S秒", time.localtime())
-    # file_path = dir_path + r'/log.txt'
-    # os.makedirs(dir_path)
-
     # 方便一次跑多个数据集用于绘图
     dir_path = r'./draw/image_deb_'+str(i)
     file_path = dir_path + r'/log.txt'
@@ -36,16 +30,10 @@ for i in range(0,3):
     B = torch.tensor(B,dtype=torch.float32)
     print('A:',A)
     print('B:',B)
-    # C_path =  r'D:\my_project\GT_VR_Simulation\a9a\data\new_C.mat'
-    # C =  scio.loadmat(C_path)['C_store']
-    # C = torch.tensor(C,dtype=torch.float32)
     GT_DAG_config = {'nodes':nodes,'Phi':None,'theta':None,'opt_x':None,'beta1':0.9,'beta2':0.999,
                     'train_dataset_nodes':datasets,'test_dataset_nodes':None,'alpha':0.005,'v_min':10**-8,'v_max':100,
                     'T':10000,'batch_size':1,'model':eum_model,'A':A,'B':B,'dir_path':dir_path,'file_path':file_path,'C':None}
-
     GT_DAG_config['P'] = 0.1
-
-    # 学习率0.001是最优的
 
     DAGT = DAGT(GT_DAG_config)
     ABSAGA_Instance = AB_SAGA(GT_DAG_config)
@@ -59,8 +47,7 @@ for i in range(0,3):
     Model_AB_SAGA = ABSAGA_Instance.model_avg
     Model_GT_DAG_VR = VRDAGT_Instance.model_avg
     Model_GT_VR = GTVR_Instance.model_avg
-
-    # 绘制loss和optgap的对比图，同样只绘制points个点
+    
     points = 100
 
     #绘制loss和optgap的对比图，每个模型的线例不同
