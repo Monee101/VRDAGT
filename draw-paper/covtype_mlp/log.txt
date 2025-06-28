@@ -1,258 +1,247 @@
-2025-04-06 17:54:36,402 - INFO: nodes:10
-2025-04-06 17:54:36,402 - INFO: alpha:0.01
-2025-04-06 17:54:36,402 - INFO: algorithm:AB_VRDAGT
-2025-04-06 17:54:36,402 - INFO: T:6000
-2025-04-06 17:54:36,402 - INFO: c:2
-2025-04-06 17:54:36,402 - INFO: d:54
-2025-04-06 17:54:36,402 - INFO: model:simple_mlp
-2025-04-06 17:54:36,402 - INFO: dataset:covtype
-2025-04-06 17:54:36,402 - INFO: loss:0.546058177947998
-2025-04-06 17:54:36,402 - INFO: opt_gap:0.00015727372374385595
-2025-04-06 17:54:36,403 - INFO: acc_test:0.7725731611251831
-2025-04-06 17:54:36,403 - INFO: acc_train:0.7601613700389862
-2025-04-06 17:54:36,405 - INFO: end
-
-2025-04-06 17:57:33,819 - INFO: nodes:10
-2025-04-06 17:57:33,819 - INFO: alpha:0.01
-2025-04-06 17:57:33,819 - INFO: algorithm:GT_VR
-2025-04-06 17:57:33,820 - INFO: T:6000
-2025-04-06 17:57:33,820 - INFO: c:2
-2025-04-06 17:57:33,820 - INFO: d:54
-2025-04-06 17:57:33,820 - INFO: model:simple_mlp
-2025-04-06 17:57:33,820 - INFO: dataset:covtype
-2025-04-06 17:57:33,820 - INFO: loss:0.629425585269928
-2025-04-06 17:57:33,820 - INFO: opt_gap:0.0010220464318990707
-2025-04-06 17:57:33,821 - INFO: acc_test:0.6825043022632599
-2025-04-06 17:57:33,821 - INFO: acc_train:0.6759703159332275
-2025-04-06 17:57:33,822 - INFO: end
-
-2025-04-06 17:58:36,039 - INFO: nodes:10
-2025-04-06 17:58:36,039 - INFO: alpha:0.01
-2025-04-06 17:58:36,039 - INFO: algorithm:AB_DAGT
-2025-04-06 17:58:36,039 - INFO: T:6000
-2025-04-06 17:58:36,039 - INFO: c:2
-2025-04-06 17:58:36,039 - INFO: d:54
-2025-04-06 17:58:36,039 - INFO: model:simple_mlp
-2025-04-06 17:58:36,039 - INFO: dataset:covtype
-2025-04-06 17:58:36,039 - INFO: loss:0.5542510747909546
-2025-04-06 17:58:36,039 - INFO: opt_gap:0.005245562642812729
-2025-04-06 17:58:36,040 - INFO: acc_test:0.7712306380271912
-2025-04-06 17:58:36,040 - INFO: acc_train:0.751951378583908
-2025-04-06 17:58:36,042 - INFO: end
+2025-06-27 17:22:03,068 - INFO: nodes:10
+2025-06-27 17:22:03,068 - INFO: alpha:0.01
+2025-06-27 17:22:03,068 - INFO: algorithm:AB_VRDAGT
+2025-06-27 17:22:03,068 - INFO: T:6000
+2025-06-27 17:22:03,069 - INFO: c:2
+2025-06-27 17:22:03,069 - INFO: d:54
+2025-06-27 17:22:03,069 - INFO: model:simple_mlp
+2025-06-27 17:22:03,069 - INFO: dataset:covtype
+2025-06-27 17:22:03,069 - INFO: loss:0.5466655492782593
+2025-06-27 17:22:03,069 - INFO: opt_gap:0.0004321286687627435
+2025-06-27 17:22:03,075 - INFO: acc_test:0.7735972344875336
+2025-06-27 17:22:03,077 - INFO: acc_train:0.760647588968277
+2025-06-27 17:22:03,083 - INFO: end
 
 
-2025-04-06 18:01:31,468 - INFO: nodes:10
-2025-04-06 18:01:31,468 - INFO: alpha:0.01
-2025-04-06 18:01:31,468 - INFO: algorithm:AB_SAGA
-2025-04-06 18:01:31,468 - INFO: T:6000
-2025-04-06 18:01:31,469 - INFO: c:2
-2025-04-06 18:01:31,469 - INFO: d:54
-2025-04-06 18:01:31,469 - INFO: model:simple_mlp
-2025-04-06 18:01:31,469 - INFO: dataset:covtype
-2025-04-06 18:01:31,469 - INFO: loss:0.6332331895828247
-2025-04-06 18:01:31,469 - INFO: opt_gap:0.0026840113569051027
-2025-04-06 18:01:31,470 - INFO: acc_test:0.7055421769618988
-2025-04-06 18:01:31,470 - INFO: acc_train:0.6756949245929718
-2025-04-06 18:01:31,471 - INFO: end
+2025-06-27 17:28:05,196 - INFO: nodes:10
+2025-06-27 17:28:05,196 - INFO: alpha:0.1
+2025-06-27 17:28:05,196 - INFO: algorithm:GT_VR
+2025-06-27 17:28:05,209 - INFO: T:6000
+2025-06-27 17:28:05,210 - INFO: c:2
+2025-06-27 17:28:05,210 - INFO: d:54
+2025-06-27 17:28:05,210 - INFO: model:simple_mlp
+2025-06-27 17:28:05,210 - INFO: dataset:covtype
+2025-06-27 17:28:05,210 - INFO: loss:0.5865406394004822
+2025-06-27 17:28:05,210 - INFO: opt_gap:0.03019869700074196
+2025-06-27 17:28:05,225 - INFO: acc_test:0.7148537039756775
+2025-06-27 17:28:05,225 - INFO: acc_train:0.7025666892528534
+2025-06-27 17:28:05,249 - INFO: end
 
 
-2025-04-06 18:01:31,871 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,225 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,226 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,227 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,227 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,228 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,229 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,229 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,230 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,230 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,231 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,232 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,232 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,232 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,233 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,233 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,234 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,235 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,235 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,235 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,236 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,236 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,236 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,237 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,237 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,238 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,238 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,239 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,239 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,241 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,242 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,242 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,242 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,249 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,249 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,249 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,751 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,752 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:32,752 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:33,303 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:33,304 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:33,304 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:33,821 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:33,822 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:33,822 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:33,822 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:34,340 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:34,340 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:34,340 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:34,893 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:34,893 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:34,893 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:35,428 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:35,429 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:35,429 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:35,944 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:35,945 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:35,945 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:35,946 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:36,305 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:36,306 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:36,306 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:36,306 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:36,662 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:36,664 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:36,664 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:36,664 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:37,026 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:37,027 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:37,027 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:37,027 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:37,028 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:37,028 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:37,029 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:37,390 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:37,391 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:37,391 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:37,392 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:37,748 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:37,749 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:37,749 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:37,749 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,109 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,110 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,110 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,111 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,479 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,480 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,480 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,481 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,483 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,484 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,485 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,485 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,488 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,489 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,489 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,490 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,491 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,491 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,492 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,492 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,493 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,494 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,494 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,495 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,496 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,497 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,497 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,498 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,499 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,499 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,500 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,501 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,501 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,502 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,502 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,503 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,504 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,505 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,505 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,505 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,506 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,507 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,507 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,507 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,508 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,509 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,509 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,510 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,517 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,517 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,518 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,518 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,519 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,519 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,520 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,520 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,521 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,521 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,522 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,522 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,522 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,522 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,524 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,524 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,529 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,529 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,530 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,531 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,531 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,532 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,532 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,533 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,533 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,534 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,534 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,534 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,535 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,536 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,536 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,536 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,537 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,537 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,538 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,539 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,539 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,539 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,541 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,542 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,542 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,543 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,545 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,546 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,546 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,547 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,548 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,549 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,549 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,550 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,551 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,551 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,552 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,553 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,553 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,554 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,554 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,555 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,556 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,557 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,557 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,557 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,558 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,558 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,559 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,560 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,560 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,561 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,562 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
-2025-04-06 18:01:38,562 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:30:08,414 - INFO: nodes:10
+2025-06-27 17:30:08,414 - INFO: alpha:0.01
+2025-06-27 17:30:08,414 - INFO: algorithm:AB_DAGT
+2025-06-27 17:30:08,414 - INFO: T:6000
+2025-06-27 17:30:08,414 - INFO: c:2
+2025-06-27 17:30:08,414 - INFO: d:54
+2025-06-27 17:30:08,414 - INFO: model:simple_mlp
+2025-06-27 17:30:08,414 - INFO: dataset:covtype
+2025-06-27 17:30:08,414 - INFO: loss:0.573479950428009
+2025-06-27 17:30:08,414 - INFO: opt_gap:0.07028815150260925
+2025-06-27 17:30:08,432 - INFO: acc_test:0.7437779605388641
+2025-06-27 17:30:08,433 - INFO: acc_train:0.7203012049198151
+2025-06-27 17:30:08,435 - INFO: end
+
+
+2025-06-27 17:36:22,985 - INFO: nodes:10
+2025-06-27 17:36:22,985 - INFO: alpha:0.1
+2025-06-27 17:36:22,985 - INFO: algorithm:AB_SAGA
+2025-06-27 17:36:22,985 - INFO: T:6000
+2025-06-27 17:36:22,985 - INFO: c:2
+2025-06-27 17:36:22,985 - INFO: d:54
+2025-06-27 17:36:22,985 - INFO: model:simple_mlp
+2025-06-27 17:36:22,985 - INFO: dataset:covtype
+2025-06-27 17:36:22,985 - INFO: loss:0.5929609537124634
+2025-06-27 17:36:22,985 - INFO: opt_gap:0.07052353024482727
+2025-06-27 17:36:22,998 - INFO: acc_test:0.7250430405139923
+2025-06-27 17:36:22,998 - INFO: acc_train:0.7031282305717468
+2025-06-27 17:36:23,014 - INFO: end
+
+
+2025-06-27 17:36:25,279 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,682 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,719 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,721 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,724 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,726 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,729 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,731 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,734 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,734 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,738 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,739 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,740 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,750 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,752 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,752 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,754 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,757 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,757 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,758 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,759 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,759 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,761 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,762 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,762 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,765 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,766 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,766 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,767 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,771 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,774 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,774 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,776 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,785 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,810 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,813 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,815 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,818 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,822 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,824 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,826 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,827 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,829 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,830 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,830 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,831 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,832 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,855 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,856 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,856 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,858 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,865 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,865 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,866 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,868 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,868 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,870 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,871 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,871 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,872 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,874 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,874 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,888 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,890 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,891 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,892 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,893 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,893 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,895 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,900 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,902 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,902 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,907 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,911 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,911 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,914 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,915 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,916 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,917 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,918 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,919 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,922 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,923 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,924 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,925 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,927 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,927 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,928 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,930 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,931 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,931 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,932 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,933 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,934 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,935 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,935 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,938 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,939 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,940 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,940 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,942 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,943 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,945 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,945 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,948 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,948 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,951 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,951 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,951 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,962 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,962 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,963 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,963 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,964 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,972 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,973 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,974 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,975 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,975 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,976 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,976 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,978 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,978 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,980 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,981 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,990 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,993 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,995 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,996 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:27,999 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,001 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,003 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,006 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,007 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,008 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,008 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,010 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,011 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,011 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,012 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,013 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,013 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,014 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,015 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,016 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,016 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,017 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,017 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,020 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,021 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,021 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,022 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,023 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,023 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,025 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,027 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,029 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,029 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,030 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,034 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,035 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,036 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,038 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,039 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,040 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,041 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,041 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,044 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,044 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,045 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,046 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,047 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,048 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,049 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,050 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,051 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,052 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,052 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,053 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,055 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,055 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,056 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,057 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,057 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,058 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,059 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.
+2025-06-27 17:36:28,059 - INFO: No LaTeX-compatible font found for the sans-serif fontfamily in rcParams. Using default.

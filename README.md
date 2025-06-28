@@ -2,6 +2,7 @@
 
 ### Preparation
 First, you need to clone the repository to your local machine and turn to the project directory by running the following command:
+
 ```bash
 git clone https://github.com/Monee101/VRDAGT.git
 cd VRDAGT
@@ -31,11 +32,11 @@ pip install -r requirements.txt
 - draw_code: Contains the code for generating the visualization results.
 - models: Contains the model definitions used in the experiments, such as neural networks and logistic regression and so on.
 - utils: Contains the utility functions used in the experiments, such as communication matrix generation.
-- ImageDeblu.py: Contains the code for image deblurring tasks. you can simply run the code to deblur the image. 
+- ImageDeblu.py: **Contains the code for image deblurring tasks.** you can simply run the code to deblur the image. 
 ```bash
 python ImageDeblu.py
 ```
-- ML.py: Contains the code for machine learning tasks e.g., logistic regression, neural networks. you need input some parameters to run the code, such as the number of nodes, the number of iterations. Here is an example command to run the code:
+- ML.py: **Contains the code for machine learning tasks** e.g., logistic regression, neural networks. you need input some parameters to run the code, such as the number of nodes, the number of iterations. Here is an example command to run the code:
 ```bash
 python ML.py --nodes 3 --T 1000 --batchsize 32 --onehot --alpha 0.01
 ```
@@ -52,7 +53,6 @@ For logistic regression, we don't use one-hot encoding, so you can remove the `-
 
 ---
 **If you have any questions or suggestions, please feel free to contact me. You can also open an issue on GitHub to discuss the code or report bugs.**
-
 
 
 
